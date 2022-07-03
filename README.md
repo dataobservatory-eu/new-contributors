@@ -120,7 +120,7 @@ already installed R system, and you should be working with RStudio.
     guides you through the process on Linux, Mac OS or Windows
     platforms.
 
-### Handshake with us
+### 👋🏿 Handshake
 
 -   [ ] Run into a problem? We use the open-source and encyrpted,
     privacy-sensitive competitor of Slack,
