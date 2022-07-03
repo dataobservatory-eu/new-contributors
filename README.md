@@ -45,17 +45,6 @@ welcoming, diverse, inclusive, and healthy community.”
 Please read the [entire covenant
 here](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 
-## Data curators
-
-Data curators do not need to be knowledgeable about data science or
-programming. They should have a strong domain-specific knowledge and
-interest in empirical data collection and data quality in their
-professional or research areas.
-
-As a data curator, we will rely on your expertise to publish or release
-new data. Therefore, we need a filled in curator biography template with
-the following information about you.
-
 -   [x] Name, affiliation, education details, one-line and short
     biography. Please, send back this [text
     file](https://raw.githubusercontent.com/dataobservatory-eu/new-contributors/main/biography/bio_template.txt)
@@ -90,26 +79,41 @@ the following information about you.
 -   [x] Please send us one professional portrait of at least 400x400
     pixels.
 
+## Data curators
+
+Data curators do not need to be knowledgeable about data science or
+programming. They should have a strong domain-specific knowledge and
+interest in empirical data collection and data quality in their
+professional or research areas.
+
+As a data curator, we will rely on your expertise to publish or release
+new data. Therefore, we need a filled in curator biography template with
+the following information about you.
+
 You should get familiar with the following concepts. We will describe
-them in blogposts. - \[x\] [FAIR
-Principles](https://www.go-fair.org/fair-principles/): improve the
-Findability, Accessibility, Interoperability, and Reuse of digital
-assets. - \[x\]
-[DataCite](https://support.datacite.org/docs/datacite-metadata-schema-44):
-A persistent, standardized approach to access, identification, sharing,
-and re-use of datasets—this is our favored way of describing data for
-future use according to the FAIR principles. Many EU open science
-repositories will ask your publications with this documentation. - \[x\]
-Biblatex is a standard text file used by citation engines, bibliography
-management tool, and in scientific publication templates. (See for
-example the Overleaf [Biblatex
-tutorial](https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX) -
-\[ \] Dublin Core is an older international standard than DataCite, but
-the two standards greatly overlap. Dublin Core was originally developed
-by libraries. You often may need to fill out Dublin Core properties for
-publication. - \[x\] You should follow our file naming conventions, and
-avoid the use of special characters in any file names at all times:
-<space>, `$`, `:`,`;`,`,`,`.`, `"`, `' tick` or backtick.
+them in blogposts.
+
+-   [x] [FAIR Principles](https://www.go-fair.org/fair-principles/):
+    improve the Findability, Accessibility, Interoperability, and Reuse
+    of digital assets.
+-   [x]
+    [DataCite](https://support.datacite.org/docs/datacite-metadata-schema-44):
+    A persistent, standardized approach to access, identification,
+    sharing, and re-use of datasets—this is our favored way of
+    describing data for future use according to the FAIR principles.
+    Many EU open science repositories will ask your publications with
+    this documentation.
+-   [x] Biblatex is a standard text file used by citation engines,
+    bibliography management tool, and in scientific publication
+    templates. (See for example the Overleaf [Biblatex
+    tutorial](https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX).
+-   [ ] Dublin Core is an older international standard than DataCite,
+    but the two standards greatly overlap. Dublin Core was originally
+    developed by libraries. You often may need to fill out Dublin Core
+    properties for publication.
+-   [x] You should follow our file naming conventions, and avoid the use
+    of special characters in any file names at all times: <space>, `$`,
+    `:`,`;`,`,`,`.`, `"`, `' tick` or backtick.
 
 ## If you want to contribute, co-author in our publication activities
 
