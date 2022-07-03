@@ -44,17 +44,16 @@ Data curators do not need to be knowledgeable about data science or programming.
 
 As a data curator, we will rely on your expertise to publish or release new data.  Therefore, we need a filled in curator biography template with the following information about you.
 
-- [x]  Name, affiliation, education details, one-line and short biography, as on 
-- [x] Your [ORCiD](https://orcid.org/) to resolve ambiguity with similarly named people. You may use different library or publication service IDs, such as Google Scholar, Publeon, etc, you may provide them, too, but we do need an ORCiD ID, because most of the EU open science infrastructure and the R ecosystem uses this one. If you do not have it, please create one---it only takes a few minutes.
-- [x] Your LinkedIn ID.
+- [x]  Name, affiliation, education details, one-line and short biography. Please, send back this [text file](https://raw.githubusercontent.com/dataobservatory-eu/new-contributors/main/biography/bio_template.txt) with your details or, if you know markdown, use [this version](https://github.com/dataobservatory-eu/new-contributors/blob/main/biography/_index.md). The files are identical, but your word processor may not know how to open an .md file.
+- [x] Your [ORCiD](https://orcid.org/) to resolve ambiguity with similarly named people. You may use different library or publication service IDs, such as Google Scholar, Publeon, etc, you may provide them, too, but we do need an ORCiD ID, because most of the EU open science infrastructure and the R ecosystem uses this one. If you do not have it, please create one---it only takes a few minutes. Please add it to the bio_template.txt.
+- [x] Your LinkedIn ID, add it to the bio_template.txt.
 - [ ] Your Github account name. If you do not have one, please create one. As a data curator, you may not need it, but if you contribute in our R&D or publication efforts, you will need it.
 - [ ] Your Keybase account name. If you do not have one, please create one, if you want to be able to chat with us, or exchange calls, data with us in a discrete, free, open-source and secure environment. Keybase is an open-source substitute for Slack. It is owned by Zoom and it can start Zoom or Google Meet calls.
 - [ ] Twitter account name, provided that you use Twitter for _professional_ uses.
 - [ ] Facebook acccount name, provided that you use Facebook for _professional_ uses.
 - [ ] Any other social media that you use strictly professionally.
 - [x] You should follow our file naming conventions, and avoid the use of special characters in any file names at all times: <space>, `$`, `:`,`;`,`,`,`.`, `"`, `' tick` or backtick. 
-
-
+- [x] Please send us one professional portrait of at least 400x400 pixels. 
 
 You should get familiar with the following concepts. We will describe them in blogposts.
 - [x] [FAIR Principles](https://www.go-fair.org/fair-principles/):  improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. 
