@@ -45,6 +45,8 @@ welcoming, diverse, inclusive, and healthy community.”
 Please read the [entire covenant
 here](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 
+## Basic curatorial data
+
 -   [x] Name, affiliation, education details, one-line and short
     biography. Please, send back this [bio_template.txt text
     file](https://raw.githubusercontent.com/dataobservatory-eu/new-contributors/main/biography/bio_template.txt)
