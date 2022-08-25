@@ -98,8 +98,7 @@ them in blogposts.
 -   [x] [FAIR Principles](https://www.go-fair.org/fair-principles/):
     improve the Findability, Accessibility, Interoperability, and Reuse
     of digital assets.
--   [x]
-    [DataCite](https://support.datacite.org/docs/datacite-metadata-schema-44):
+-   [x] [DataCite](https://support.datacite.org/docs/datacite-metadata-schema-44):
     A persistent, standardized approach to access, identification,
     sharing, and re-use of datasets—this is our favored way of
     describing data for future use according to the FAIR principles.
@@ -168,7 +167,7 @@ new R installation, however, it will not remove the old R environment.
 You should run the upgrader from the R GUI (you will find this somewhere
 on your computer, even though you may have forgotten about it because
 you always use R from RStudio.) 
-- [ ] In my experience, the copying of
+- [ ] The copying of
 the old R packages is not always successful. You can prepare for this by
 saving the list of installed packages before your I do not my
 reinstalling though my packages. It reminds me to remove detritus, and
