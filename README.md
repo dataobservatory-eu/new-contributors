@@ -152,14 +152,14 @@ who can work on tasks parallel without overwriting each other’s work.
 
 ## R software testing, documentation or development
 
-**Get your computer ready for co-working:** - \[x\] You will need the
-crossplatform Java programming environment on your computer. It is
+**Get your computer ready for co-working:** 
+- [x] You will need the crossplatform Java programming environment on your computer. It is
 cross-platform and facilitates the use of Linux, BSD/Mac OX and Windows
 collaboration. You most probably have it. It is a good opportunity to
 check if you have the latest version. If not, do upgrade, both for
 security and functionality reasons, and at the same time remove the old
-versions. Follow this link <https://www.java.com/en/download/>. - \[x\]
-If you recently installed R, you most likely have the latest version. If
+versions. Follow this link <https://www.java.com/en/download/>. 
+- [xú If you recently installed R, you most likely have the latest version. If
 not, then run `install.packages(“installr”)` and run
 `installr::check.for.updates.R()`. If there is a newer R release, you
 should upgrade. `installr::updateR()` will take you through the
@@ -167,22 +167,25 @@ progress, including the moving of your already installed packages to the
 new R installation, however, it will not remove the old R environment.
 You should run the upgrader from the R GUI (you will find this somewhere
 on your computer, even though you may have forgotten about it because
-you always use R from RStudio.) - \[ \] In my experience, the copying of
+you always use R from RStudio.) 
+- [ ] In my experience, the copying of
 the old R packages is not always successful. You can prepare for this by
 saving the list of installed packages before your I do not my
 reinstalling though my packages. It reminds me to remove detritus, and
 review my own developments.  
-- \[x\] One package that is worth running at all new installs is
+- [x] One package that is worth running at all new installs is
 tinytex. `tinytex::reinstall_tinytex()` or `tinytex::install_tinytex()`.
 [Tinytex](https://yihui.org/tinytex/) is a lightweight tex engine, and
 it will allow many tex libraries from [CTAN](https://ctan.org/?lang=en),
 such as fonts, formatting tools for TeX, and so on. This is required for
 an efficient creation of PDF files, in package documentation or
-elsewhere. - \[x\] Now, when you have the latest version of R, install
+elsewhere. 
+- [x] Now, when you have the latest version of R, install
 Rtools, too. <https://cran.r-project.org/bin/windows/Rtools/> - \[x\]
 Now install [RStudio](https://www.rstudio.com/), or, if you already have
 it, check if you have the latest version. (Help Menu, Check for
-Updates.) - \[x\] Install the `usethis` and `devtools` packages with all
+Updates.) 
+- [x] Install the `usethis` and `devtools` packages with all
 their dependencies. You should run `install.packages(“devtools”)` and
 see if all dependencies install without error. If not, you must figure
 out why some components are not installing.
