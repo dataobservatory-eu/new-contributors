@@ -220,12 +220,14 @@ them work together.
 
 -   [x] [Happy Git and GitHub for the useR](https://happygitwithr.com/)
     guides you through the process on Linux, Mac OS or Windows
-    platforms.
+    platforms. Put this [into practice](#rstudio) at the end of this
+    document.
 
-**Microskills** to pick up or improve: - \[x\] You must be able to raise
-an issue via Github. An issue can be a bug report, a suggestions to
-change how a code works, or a suggestion to add, improve, change
-documentation.
+**Microskills** to pick up or improve:
+
+-   [x] You must be able to raise an issue via Github. An issue can be a
+    bug report, a suggestions to change how a code works, or a
+    suggestion to add, improve, change documentation.
 
 -   [x] You must be able to read a response to an issue, and accept a
     solution offered by somebody.
@@ -281,3 +283,89 @@ documentation.
 
 -   [x] Send a pull request when you have something to commit to our
     work.
+
+## Put this into practice
+
+1.  Star this repo:
+    [dataobservatory-eu/new-contributors](https://github.com/dataobservatory-eu/new-contributors)
+    ⭐
+
+Thanks! It is similar on social media to giving us a like or a 🧡.
+
+2.  For this repo into your own space on Github, i.e. create a copy that
+    you can modify or download to your computer.
+
+``` r
+knitr::include_graphics(file.path("png", "fork_this_repo.png"))
+```
+
+<img src="png/fork_this_repo.png" width="100%" />
+
+After pressing fork, you can make a copy to
+`https://github.com/<your-github-id>/new-contributors`. This your copy,
+and if you have followed the instruction, you can download it to your
+computer and edit the document with in RStudio or any text editor.
+
+3.  Synchronize with R Studio. By navigating to `File Menu` -\>
+    `New Project` -\> `Version control` -\> `Git` You will end up with
+    this dialog box.
+
+If you have followed the [Happy Git and GitHub for the
+useR](https://happygitwithr.com/), you have built up a secure
+authentication workflow that will work a bit differently than on Linux,
+because of deeper differences among the operational systems.
+
+-   [ ] On Windows, you paste the <https://> protocol URL of *your*
+    github fork,
+    i.e. `https://github.com/<your-github-id>/new-contributors`. instead
+    of `https://github.com/dataobservatory-eu/new-contributors` shown
+    below.
+
+``` r
+knitr::include_graphics(file.path("png", "synchronize_with_rstudio.png"))
+```
+
+<img src="png/synchronize_with_rstudio.png" width="100%" />
+
+-   [ ] On Linux, you use the SSH URL:
+    `git@github.com:<your-github-id>/new-contributors`.
+
+``` r
+knitr::include_graphics(file.path("png", "synchronize_with_r.png"))
+```
+
+<img src="png/synchronize_with_r.png" width="100%" />
+
+Whichever URL you copy into the RStudio, you will be able to download
+the repository contents with the Pull button (blue arrow down.)
+
+``` r
+knitr::include_graphics(file.path("png", "pull_push_with_rstudio.png"))
+```
+
+<img src="png/pull_push_with_rstudio.png" width="100%" />
+
+Once you have all the files present, add an emoji or a sentece to the
+back of the `README.Rmd` file, and tick the `Commit` checkbox near the
+name of the file. \[When there are `Rmd` and `md` files present, always
+edit the `Rmd`, which will generate the `md` but not the other way
+around.\]
+
+If you press the Push button (green arrow up), things should upload to
+`https://github.com/<your-github-id>/new-contributors` *without asking
+your github username and password*. Why? Because you can download, at
+least from public repositories, without authentication anytime. You can
+even download a repo in a .zip file in your browser. However, Github
+since 2021 does no longer allow writing into a repository with password
+authentication, only via the far more secure SSH. If you followed the
+[Happy Git and GitHub for the useR](https://happygitwithr.com/), your
+computer, including R Studio, should be able to download (pull) and
+upload (push) back files with SSH authentication and not with a
+password. The exact implementation of the SSH authentication is slightly
+different on Windows, Mac/BSD, and Linux/Unix systems.
+
+If you are still being asked for a password, then you are out of luck.
+You can write in your github password, but you will get a message that
+Github no longer accepts “pushing” back files with a password
+authenticaion. In this case you must troubleshoot why RStudio is not
+aware of your PAT token used for SSH authenticaion.
