@@ -180,8 +180,8 @@ such as fonts, formatting tools for TeX, and so on. This is required for
 an efficient creation of PDF files, in package documentation or
 elsewhere. 
 - [x] Now, when you have the latest version of R, install
-Rtools, too. <https://cran.r-project.org/bin/windows/Rtools/> - \[x\]
-Now install [RStudio](https://www.rstudio.com/), or, if you already have
+Rtools, too. <https://cran.r-project.org/bin/windows/Rtools/> 
+- [x] Now install [RStudio](https://www.rstudio.com/), or, if you already have
 it, check if you have the latest version. (Help Menu, Check for
 Updates.) 
 - [x] Install the `usethis` and `devtools` packages with all
