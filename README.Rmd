@@ -198,3 +198,4 @@ If you press the Push button (green arrow up), things should upload to `https://
 
 If you are still being asked for a password, then you are out of luck. You can write in your github password, but you will get a message that Github no longer accepts "pushing" back files with a password authenticaion. In this case you must troubleshoot why RStudio is not aware of your PAT token used for SSH authenticaion.
 
+:-)
