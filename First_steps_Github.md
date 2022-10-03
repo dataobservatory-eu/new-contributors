@@ -1,3 +1,5 @@
+# First Steps on Github
+
 ## Find the repository
 
 1.  Go to the repository url on github. If the repository is public, you
@@ -9,10 +11,6 @@
 ## Bookmark the repository
 
 1.  Star this repo: dataobservatory-eu/new-contributors
-
-<!-- -->
-
-    knitr::include_graphics(here("png", "linux",  "github_star_repository.png"))
 
 ![](png/linux/github_star_repository.png)
 
@@ -29,8 +27,6 @@ You will see, among other things, the following information:
 *A* fork *is a copy of a repository. Forking a repository allows you to
 freely experiment with changes without affecting the original project.*
 
-    knitr::include_graphics(here("png", "linux",  "github_create_fork.png"))
-
 ![](png/linux/github_create_fork.png) You will have a copy of the entire
 directory at `github.com/<your_username>/new-contributors`
 
@@ -38,8 +34,6 @@ directory at `github.com/<your_username>/new-contributors`
 
 In the following screenshot, RStudio is used on an Ubuntu (Linux)
 computer.
-
-    knitr::include_graphics(here("png", "linux",  "github_download_fork.png"))
 
 ![](png/linux/github_download_fork.png)
 
@@ -66,8 +60,6 @@ changed the contents of
 sync, you have to make sure first that your online copy is updated from
 the master repository.
 
-    knitr::include_graphics(here("png", "linux",  "githu_sync_fork.png"))
-
 ![](png/linux/githu_sync_fork.png)
 
 1.  By pressing the Synch fork button, you can make sure that
@@ -81,9 +73,14 @@ the master repository.
 
 ## Pull down new contents
 
-You must write a meaningful message for your colleagues.
+If your `github.com/<your_username>/new-contributors` cloud space is in
+sync with `github.com/dataobservatory-eu/new-contributors` again, you
+can download the new files to your computer with pressing the blue arrow
+down on RStudio, or pressing “Pull” on Github Desktop.
 
-I am uploading now the screenshots of this tutorial
+1.  Press `pull` and pull over the new files to your local computer.
+
+![](png/linux/pull_from_github.png)
 
 ## Synchronize changes
 
@@ -94,19 +91,11 @@ will look different.
 
 1.  You select the files that you want to upload, or push up.
 
-<!-- -->
-
-    knitr::include_graphics(here("png", "linux",  "rstudio_files_commit.png"))
-
 ![](png/linux/rstudio_files_commit.png)
 
 1.  You commit to sending the files up into the cloud. If the repository
     on github.com is public, you will make the files public, so think
     this step through.
-
-<!-- -->
-
-    knitr::include_graphics(here("png", "linux",  "rstudio_files_commit_2.png"))
 
 ![](png/linux/rstudio_files_commit_2.png)
 
@@ -117,9 +106,10 @@ will look different.
     Even more important: whoever will synchronize your changes to the
     team’s master repo will know what happened.
 
-<!-- -->
+I wrote this:
 
-    knitr::include_graphics(here("png", "linux",  "rstudio_stage_files.png"))
+`You must write a meaningful message for your colleagues.`
+`I am uploading now the screenshots of this tutorial`
 
 ![](png/linux/rstudio_stage_files.png)
 
@@ -132,8 +122,6 @@ Go to `github.com/<your_username>/new-contributors` and check if the new
 files are there. In this case, I changed the `Rmd` and `md` version of
 this tutorial, and added the screenshots as `png` files to the `/png`
 folder in the repository.
-
-    knitr::include_graphics(here("png", "linux",  "github_new_commit_arrives.png"))
 
 ![](png/linux/github_new_commit_arrives.png) As you can see, in the
 cloud, on `github.com/antaldaniel/new-contributors` I can see that the
@@ -150,20 +138,19 @@ will be updated?
 ## Sync with your team
 
 1.  On `github.com/<your-username>/new-contributors` you go to ‘pull
-    requests’
+    requests’. Remember that earlier you pulled files down to your
+    computer? Now we will pull files uploaded from your computer over
+    the the team’s master repository.
 
-<!-- -->
-
-    knitr::include_graphics(here("png", "linux",  "github_pull_request_1.png"))
+2.  You do not control the team’s master repository, therefore you
+    cannot pull the files over. You can request the project manager to
+    pull it over after revision. This protects you from making mistakes
+    in the team’s work.
 
 ![](png/linux/github_pull_request_1.png)
 
 1.  On `github.com/<your-username>/new-contributors` you go to ‘pull
     requests’
-
-<!-- -->
-
-    knitr::include_graphics(here("png", "linux",   "github_pull_request_2.png"))
 
 ![](png/linux/github_pull_request_2.png) 3. You must give clearer
 instructions on this pull request. One pull request may contain many
@@ -171,20 +158,29 @@ files, i.e. not only one commit, but many files from several commits in
 one go. Therefore, it is a good practice to write a short summary of all
 the changes you would like to do in the team’s master repository.
 
-    knitr::include_graphics(here("png", "linux",  "github_merge_fork_3.png"))
-
 ![](png/linux/github_merge_fork_3.png)
 
 1.  Press `Create pull request` and **stop**. After the pull request is
     made, you will get a confirmation of what changed, but if you are
     offered, to not make the last step.
 
-<!-- -->
-
-    knitr::include_graphics(here("png", "linux",  "github_merge_fork_4.png"))
-
 ![](png/linux/github_merge_fork_4.png) 5. **Do not press
 `Merge pull request`** if you see it. Normally only your supervisor
 should see it.
 
-END
+## Revision
+
+1.  We create a copy of `dataobservatory-eu/new-contributors` to your
+    cloud storage, i.e. `github.com/<your-username>/new-contributors`
+
+2.  We downloaded the files in this repository or folder.
+
+3.  We made changes in the files.
+
+4.  You uploaded (*pushed*) the changes back to your cloud storage on
+    `github.com/<your-username>/new-contributors`.
+
+5.  You described your contribution, and asked the maintainer of
+    `dataobservatory-eu/new-contributors` the to pull over after
+    revision your new files from
+    `github.com/<your-username>/new-contributors`.

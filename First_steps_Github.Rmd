@@ -5,8 +5,10 @@ date: "2022-10-03"
 output: md_document
 ---
 
+# First Steps on Github 
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, message=FALSE)
 library(here)
 ```
 
@@ -69,9 +71,17 @@ knitr::include_graphics(here("png", "linux",  "githu_sync_fork.png"))
 
 ## Pull down new contents
 
-You must write a meaningful message for your colleagues.
+If your `github.com/<your_username>/new-contributors` cloud space is in sync with `github.com/dataobservatory-eu/new-contributors` again, you can download the new files to your computer with pressing the blue arrow down on RStudio, or pressing "Pull" on Github Desktop.
 
-I am uploading now the screenshots of this tutorial
+1. Press `pull` and pull over the new files to your local computer.
+
+```{r pulllocal}
+knitr::include_graphics(here("png", "linux",  "pull_from_github.png"))
+```
+
+
+
+
 
 
 
@@ -93,6 +103,10 @@ knitr::include_graphics(here("png", "linux",  "rstudio_files_commit_2.png"))
 
 3. You must write a meaningful commit message. Why? If you had a previous task description ('issue'), link or reference to it. Later you can undo these changes, and the better you describe them, the easier you will find this step and correct it, should you need it. Even more important: whoever will synchronize your changes to the team's master repo will know what happened.
 
+I wrote this:
+
+`You must write a meaningful message for your colleagues.`
+`I am uploading now the screenshots of this tutorial`
 
 ```{r stage}
 knitr::include_graphics(here("png", "linux",  "rstudio_stage_files.png"))
@@ -114,7 +128,9 @@ I also see a message that `This branch is 1 commit ahead of dataobservatory-eu:m
 
 ## Sync with your team
 
-1. On `github.com/<your-username>/new-contributors` you go to 'pull requests' 
+1. On `github.com/<your-username>/new-contributors` you go to 'pull requests'. Remember that earlier you pulled files down to your computer? Now we will pull files uploaded from your computer over the the team's master repository.
+
+2. You do not control the team's master repository, therefore you cannot pull the files over. You can request the project manager to pull it over after revision. This protects you from making mistakes in the team's work.
 
 ```{r pr1}
 knitr::include_graphics(here("png", "linux",  "github_pull_request_1.png"))
@@ -133,7 +149,19 @@ knitr::include_graphics(here("png", "linux",  "github_merge_fork_3.png"))
 
 4. Press `Create pull request` and **stop**. After the pull request is made, you will get a confirmation of what changed, but if you are offered, to not make the last step.
 
-```{r mergefork4}
+```{r mergefor}
 knitr::include_graphics(here("png", "linux",  "github_merge_fork_4.png"))
 ```
 5. **Do not press `Merge pull request`** if you see it. Normally only your supervisor should see it. 
+
+## Revision
+
+1. We create a copy of `dataobservatory-eu/new-contributors` to your cloud storage, i.e. `github.com/<your-username>/new-contributors`
+
+2. We downloaded the files in this repository or folder.
+
+3. We made changes in the files.
+
+4. You uploaded (*pushed*) the changes back to your cloud storage on  `github.com/<your-username>/new-contributors`.
+
+5. You described your contribution, and asked the maintainer of `dataobservatory-eu/new-contributors`  the to pull over after revision your new files from `github.com/<your-username>/new-contributors`. 
