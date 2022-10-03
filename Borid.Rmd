@@ -28,7 +28,7 @@ Follow the steps here: [First_steps_Github.md](https://github.com/antaldaniel/ne
 
 ## Hello, world!
 
-Please, write here something like, "Hi, I am Gabija Liaugminaite"
+Please, write here something like, "Hi, I am Borbála Dömötörfy"
 
 ## Add a file to the png folder
 
