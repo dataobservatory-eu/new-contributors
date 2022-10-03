@@ -1,0 +1,47 @@
+---
+title: "isabellatautscher"
+author: "Daniel Antal"
+date: "2022-10-03"
+output: md_document
+---
+
+# Handshake with @isabellatautscher
+
+```{r setup, include=FALSE}
+library(here)
+#This a code that will be used to translate this document to pdf or epub.
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Star the repository
+
+```{r sampleimg}
+# By the way this is how you include a png file as illustration from 
+# ../png/linux/github_star_repository.png
+knitr::include_graphics(here("png", "linux",  "github_star_repository.png"))
+```
+
+## Download this file
+
+Follow the steps here: [First_steps_Github.md](https://github.com/antaldaniel/new-contributors/blob/main/First_steps_Github.md)
+
+
+## Hello, world!
+
+Please, write here something like, "Hi, I am Isabella"
+
+## Add a file to the png folder
+
+Choose any png file that you like (and which is royalty free, not too big), and place it on your drive to the `/png/subfolder` of your local repository copy. The name of the png file should be changed below:
+
+```{r yourpng, eval=FALSE}
+# By the way this is how you include a png file as illustration from 
+# ../png/<your_filename>.png
+knitr::include_graphics(here("png", "<yourfilename.png>"))
+# Set eval=TRUE when done. It is set to FALSE because  "<yourfilename.png>" does not exist.
+```
+
+## Sync it with us!
+
+Follow the steps here: [First_steps_Github.md](https://github.com/antaldaniel/new-contributors/blob/main/First_steps_Github.md)
+
