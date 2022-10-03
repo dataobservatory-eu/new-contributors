@@ -186,3 +186,5 @@ the changes you would like to do in the team’s master repository.
 ![](png/linux/github_merge_fork_4.png) 5. **Do not press
 `Merge pull request`** if you see it. Normally only your supervisor
 should see it.
+
+END
