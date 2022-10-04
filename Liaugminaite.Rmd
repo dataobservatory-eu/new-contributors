@@ -1,7 +1,7 @@
 ---
-title: "Borid"
+title: "Gabija"
 author: "Daniel Antal"
-date: "2022-10-03"
+date: "2022-10-04"
 output: md_document
 ---
 
@@ -28,17 +28,16 @@ Follow the steps here: [First_steps_Github.md](https://github.com/antaldaniel/ne
 
 ## Hello, world!
 
-Please, write here something like, "Hi, I am Gabija Liaugminaite"
+Good afternoon! 
 
 ## Add a file to the png folder
 
 Choose any png file that you like (and which is royalty free, not too big), and place it on your drive to the `/png/subfolder` of your local repository copy. The name of the png file should be changed below:
 
-```{r yourpng, eval=FALSE}
+```{r yourpng, eval=TRUE}
 # By the way this is how you include a png file as illustration from 
 # ../png/<your_filename>.png
-knitr::include_graphics(here("png", "<yourfilename.png>"))
-# Set eval=TRUE when done. It is set to FALSE because  "<yourfilename.png>" does not exist.
+knitr::include_graphics(here("png", "1200px-Sunflower_sky_backdrop.jpg"))
 ```
 
 ## Sync it with us!
