@@ -1,4 +1,4 @@
-# Handshake with @liaugminaite
+# Handshake with @Borid
 
 ## Star the repository
 
@@ -15,7 +15,7 @@ Follow the steps here:
 
 ## Hello, world!
 
-Please, write here something like, “Hi, I am Gabija Liaugminaite”
+Good afternoon!
 
 ## Add a file to the png folder
 
@@ -25,8 +25,9 @@ repository copy. The name of the png file should be changed below:
 
     # By the way this is how you include a png file as illustration from 
     # ../png/<your_filename>.png
-    knitr::include_graphics(here("png", "<yourfilename.png>"))
-    # Set eval=TRUE when done. It is set to FALSE because  "<yourfilename.png>" does not exist.
+    knitr::include_graphics(here("png", "1200px-Sunflower_sky_backdrop.jpg"))
+
+![](png/1200px-Sunflower_sky_backdrop.jpg)
 
 ## Sync it with us!
 
