@@ -1,8 +1,54 @@
 # First Steps on Github
 
+In this tutorial, we will synchronize the contents of a team cloud-based
+Github folder to your personal cloud space, then your computer, change
+one text file, add a picture, and synchronize it back.
+
+To make this happen, your computer needs to be securely authenticated to
+the Github Enterprise Server. This authentication flow is likely to be
+different on a Linux, Mac or Windows computer. Without authentication,
+you can follow the first steps (downloading from a public folder or
+repository) but you will not be able to modify a file or add/delete a
+file.
+
+## Authenticating your computer
+
+To keep your account secure, you must authenticate before you can access
+certain resources on GitHub Enterprise Server. This is the most
+troublesome element of working with Github, and the most difficult,
+becuase it is likely that you have not done anything like this before.
+Luckily, you only have to do it once, and afterwards, you will have a
+seamless syncronization experience.
+
+You can use password login to the web interface, but you cannot sync
+files to and from your computer with a password authentication alone.
+
+### Github Desktop
+
+If you use Windows or Mac, by default the best way to syncronize is via
+downloading the Github Desktop application. Please follow
+[authenticating with GitHub
+Desktop](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#authenticating-with-github-desktop)
+
+### RStudio
+
+If you want to learn to read or write R code, you should install and use
+RStudio. This will be a great mardown editor, too. Please follow the
+[Happy Git and GitHub for the useR](https://happygitwithr.com/) that
+will give instructions for Windows, Mac, Linux.
+
+-   [Personal Access
+    Token](https://docs.github.com/en/enterprise-server@3.4/github/authenticating-to-github/creating-a-personal-access-token):
+    RStudio oon Windows will likely use PAT and the HTTPS protocol.
+-   [SSH](https://docs.github.com/en/enterprise-server@3.4/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+    RStudio on Linux will likely use this way.
+
 ## Find the repository
 
-1.  Go to the repository url on github. If the repository is public, you
+1.  Sign in to github.com with your password. You can pass this step
+    without authenticating your personal computer.
+
+2.  Go to the repository url on github. If the repository is public, you
     will see the page immediately. If it is private, you will see it as
     if it did not exist if you have no right to see it.
 
@@ -12,6 +58,8 @@
 
 1.  Star this repo: dataobservatory-eu/new-contributors
 
+You can pass this step without authenticating your personal computer.
+
 ![](png/linux/github_star_repository.png)
 
 ## Fork the repository
@@ -20,7 +68,8 @@ You create a branch, a version of the repository (folder), in your own
 github.com space in the cloud by creating a fork. This is the first step
 of the collaboration: you will always work with a copy of our files, and
 you will only overwrite master files with the repository manager’s
-explicit approval.
+explicit approval. You can pass this step without authenticating your
+personal computer.
 
 You will see, among other things, the following information:
 
@@ -44,6 +93,11 @@ computer.
     folders. That is preferred to RStudio if you have large graphic
     files, PowerPoint presentations, or other large assets in the
     folder.
+-   As you can see on the screenshot, you can download a folder
+    (repository) in a single .zip file. This is good if you want to
+    study the contents of a folder, but you will not be able to track
+    changes and syncronize a folder copy that was downloaded as a zip
+    file.
 
 1.  `github.com/dataobservatory-eu/new-contributors` is in sync with
     your online copy, i.e. 
@@ -52,6 +106,10 @@ computer.
     `github.com/<your_username>/new-contributors`.
 
 ## Upstream sync
+
+You cannot log into your github.com account with a password. You need to
+[create a personal access
+token](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 What happens if you have not opened the
 `<your_drive>/.../new-contributors` for some time? Maybe somebody

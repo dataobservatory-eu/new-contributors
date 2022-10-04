@@ -1,11 +1,11 @@
 ---
-title: "Borid"
+title: "fernsekoch"
 author: "Daniel Antal"
 date: "2022-10-03"
 output: md_document
 ---
 
-# Handshake with @Borid
+# Handshake with @fernsekoch
 
 ```{r setup, include=FALSE}
 library(here)
@@ -28,7 +28,7 @@ Follow the steps here: [First_steps_Github.md](https://github.com/antaldaniel/ne
 
 ## Hello, world!
 
-Please, write here something like, "Hi, I am Gabija Liaugminaite"
+Please, write here something like, "Hi, I am Richard Wages"
 
 ## Add a file to the png folder
 
