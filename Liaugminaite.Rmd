@@ -1,5 +1,10 @@
 ---
+# This part is in the YAML Language
+# https://learnxinyminutes.com/docs/yaml/
+# YAML is a data serialisation language designed to be directly writable and readable by humans.
+# We use YAML to do the 'behind the scenes' adjustmetns of a text document.
 title: "Gabija"
+# The hashmark sign is to leave comments that is not read by the computer. 
 author: "Daniel Antal"
 date: "2022-10-04"
 output:
@@ -11,13 +16,27 @@ output:
 
 # Handshake with @liaugminaite
 
-This is your first **markdown** document.
+This is your first **markdown** document. This is a bit confusing.  In the markdown language `#` stands for heading 1, `##` for heading 2, `###` for heading three. 
 
 ```{r setup, include=FALSE}
+# This is a separated are with your first R code.
+# You load the 'here' library first. It makes sure that file paths are treated consistently across
+# Windows, Mac and Unix/Linux systems
+# The hasmark is still for comments.
 library(here)
-#This a code that will be used to translate this document to pdf or epub.
+# This a code that will be used to translate this document to pdf or epub.
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+If you want to leave a comment for yourself (or to ask for help), you use the following notation
+
+`<!---`
+`Your comments between the start and end comment will not be read by the computer. If you translate this document to PDF, WORD, MD [it's all one click!] the commented out lines will not be visible. But they are visible in the Rmd source file. `
+`--->`
+
+<!---
+You see, this is not visible in the final output, only here.
+--->
 
 ## Star the repository
 
