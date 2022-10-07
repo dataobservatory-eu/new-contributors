@@ -9,7 +9,7 @@ output:
   word_document: default
 ---
 
-# Handshake with @Borid
+# Handshake with @liaugminaite
 
 ```{r setup, include=FALSE}
 library(here)
