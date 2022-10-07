@@ -2,13 +2,13 @@
 # Display name
 # Add your display name (typically your full name) to the title field
 # See https://wowchemy.com/docs/getting-started/get-started/#introduce-yourself
-title: Daniel Antal
-name: Daniel Antal
+title: Jane Doe
+name: Jane Doe
 
 # Username (this should match the folder name)
 # This will be assigned by dataobservatory.eu
 authors:
-- your_name 
+- jane_doe
 
 # This will be assigned by dataobservatory.eu
 superuser: false
@@ -16,7 +16,7 @@ superuser: false
 # Role/position: describe in one single sentence.
 role: Music futures and social equity data curator
 
-# Organizations/Affiliations 
+# Organizations/Affiliations
 # Add more if you want like the ones below, or delete and keep only one
 # <with your details of course>
 organizations:
@@ -74,16 +74,16 @@ social:
 - icon: keybase
   icon_pack: fab
   link: https://keybase.io/antaldaniel
-  
+
 # Mandatory: LinkedIn, ORCiD
 # Very recommended: Github, Keybase
 # Optional SSRN, Google Scholar, etc.
 # Facebook, Instagram, YouTube only if you use it professionally.
-  
 
-# If you want to add a PDF document of your resume/CV 
+
+# If you want to add a PDF document of your resume/CV
 # To enable, copy your resume/CV to `static/CV/your_name.pdf` and uncomment the lines below.
-# Send dataobservatory.eu a CV 
+# Send dataobservatory.eu a CV
 # - icon: cv
 #   icon_pack: ai
 #   link: CV/your_name.pdf
@@ -100,4 +100,4 @@ user_groups:
 ---
 
 
-Along with her co-founder Alone started [Music Export Ukraine](https://musicexportukraine.com/), an independent organisation that helps Ukrainian artists build international careers. Since then, she showcased local talents at professional events in more than 20 countries, lobbied sector needs in Ukraine and Europe, did dozens of international projects, became the expert in European funding. And strangely, she still enjoys music! 
+Along with her co-founder Alone started [Music Export Ukraine](https://musicexportukraine.com/), an independent organisation that helps Ukrainian artists build international careers. Since then, she showcased local talents at professional events in more than 20 countries, lobbied sector needs in Ukraine and Europe, did dozens of international projects, became the expert in European funding. And strangely, she still enjoys music!
