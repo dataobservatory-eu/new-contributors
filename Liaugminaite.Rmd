@@ -11,6 +11,8 @@ output:
 
 # Handshake with @liaugminaite
 
+This is your first **markdown** document.
+
 ```{r setup, include=FALSE}
 library(here)
 #This a code that will be used to translate this document to pdf or epub.
