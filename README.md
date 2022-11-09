@@ -70,6 +70,7 @@ here](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
     and it can start Zoom or Google Meet calls.
 -   [ ] Twitter account name, provided that you use Twitter for
     *professional* uses.
+-   [ ] We are seeking an affiliation with [mastodon.green](https://mastodon.green/about), which will be a climate positive, decentralized and ethical alternative to other social media. More details soon.
 -   [ ] Facebook acccount name, provided that you use Facebook for
     *professional* uses.
 -   [ ] Any other social media that you use strictly professionally.
